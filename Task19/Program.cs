@@ -5,6 +5,7 @@
 // 12821 -> да
 // 23432 -> да
 
+/*
 void Palindrome (string number)
 {
     if (number [0] == number [4] && number [1] == number [3])
@@ -22,9 +23,10 @@ if (number!.Length == 5)
     Palindrome(number);
 }
 else Console.WriteLine($"Input right number");
+*/
 
 // или
-/*
+
 void Palindrome (int number)
 {
     if(number%10 != number/10%10 & number%10 != number/100%10 & number/10%10 != number/100%10)
@@ -41,4 +43,3 @@ if (user_number > 10000 & user_number < 100000)
     Palindrome(user_number);
 }
 else Console.WriteLine("Input five-digit number");
-*/
