@@ -2,7 +2,7 @@
 //заданному номеру четверти, показывает диапазон
 //возможных координат точек в этой четверти (x и y).
 
-Console.WriteLine("Введите номер четверти: ");
+Console.Write("Введите номер четверти: ");
 int numberQuater = Convert.ToInt32(Console.ReadLine());
 
 string coordinate = Coordinate(numberQuater);
